@@ -45,6 +45,7 @@ export const initialUserData = {
 };
 
 export const initialTransactions = [
+ export const mockTransactions = [
   {
     id: "TXN-600360831059",
     title: "Suman Devi",
@@ -172,17 +173,262 @@ export const initialTransactions = [
     merchant: "MAHENDRA KURMI/811406185034",
     icon: "Send",
     color: "bg-emerald-100 text-emerald-700"
+  },
+
+  {
+    id: "TXN-615446124194",
+    title: "MAHENDER SIN",
+    narration: "UPI/Mr MAHENDER SIN/944706062063/Payment from Ph",
+    category: "Transfer",
+    type: "credit",
+    amount: 4100.00,
+    date: "29 Sep 2026",
+    timestamp: "2026-09-29T12:30:00.000Z",
+    status: "Successful",
+    mode: "UPI",
+    refId: "UPI-615446124194",
+    merchant: "UPI/Mr MAHENDER SIN/944706062063",
+    icon: "ArrowDownLeft",
+    color: "bg-emerald-100 text-emerald-700"
+  },
+  {
+    id: "TXN-615446213410",
+    title: "MAHENDER SINGH",
+    narration: "UPI/MAHENDER SINGH/615452178834/UPI",
+    category: "Transfer",
+    type: "credit",
+    amount: 100.00,
+    date: "29 Sep 2026",
+    timestamp: "2026-09-29T16:10:00.000Z",
+    status: "Successful",
+    mode: "UPI",
+    refId: "UPI-615446213410",
+    merchant: "UPI/MAHENDER SINGH/615452178834",
+    icon: "ArrowDownLeft",
+    color: "bg-emerald-100 text-emerald-700"
+  },
+  {
+    id: "TXN-615446232765",
+    title: "MAHENDER SIN",
+    narration: "UPI/Mr MAHENDER SIN/716353918987/Payment from Ph",
+    category: "Transfer",
+    type: "debit",
+    amount: 100.00,
+    date: "30 Sep 2026",
+    timestamp: "2026-09-30T11:20:00.000Z",
+    status: "Successful",
+    mode: "UPI",
+    refId: "UPI-615446232765",
+    merchant: "UPI/Mr MAHENDER SIN/716353918987",
+    icon: "Send",
+    color: "bg-purple-100 text-purple-700"
+  },
+  {
+    id: "TXN-615447054047",
+    title: "AMAN",
+    narration: "UPI/AMAN/607284730632/Sent from Paytm",
+    category: "Transfer",
+    type: "debit",
+    amount: 3000.00,
+    date: "01 Oct 2026",
+    timestamp: "2026-10-01T14:30:00.000Z",
+    status: "Successful",
+    mode: "UPI",
+    refId: "UPI-615447054047",
+    merchant: "UPI/AMAN/607284730632",
+    icon: "Send",
+    color: "bg-blue-100 text-blue-700"
+  },
+  {
+    id: "TXN-615448382317",
+    title: "NETFLIX COM",
+    narration: "UPI/NETFLIX COM/103411475095/Monthly autopay",
+    category: "Entertainment",
+    type: "debit",
+    amount: 149.00,
+    date: "02 Oct 2026",
+    timestamp: "2026-10-02T09:00:00.000Z",
+    status: "Successful",
+    mode: "UPI",
+    refId: "UPI-615448382317",
+    merchant: "UPI/NETFLIX COM/103411475095",
+    icon: "Tv",
+    color: "bg-red-100 text-red-700"
+  },
+  {
+    id: "TXN-615417995729",
+    title: "VPAY",
+    narration: "Recd:IMPS/615428065304/VPAY/KKBK/X3613/VPAY",
+    category: "IMPS Transfer",
+    type: "credit",
+    amount: 3500.00,
+    date: "02 Oct 2026",
+    timestamp: "2026-10-02T15:45:00.000Z",
+    status: "Successful",
+    mode: "IMPS",
+    refId: "IMPS-615417995729",
+    merchant: "VPAY/KKBK/X3613/VPAY",
+    icon: "Landmark",
+    color: "bg-emerald-100 text-emerald-700"
+  },
+  {
+    id: "TXN-615484426414",
+    title: "Priyanka Priya",
+    narration: "UPI/Priyanka Priya/638146575711/Payment from Ph",
+    category: "Transfer",
+    type: "debit",
+    amount: 50.00,
+    date: "04 Oct 2026",
+    timestamp: "2026-10-04T10:15:00.000Z",
+    status: "Successful",
+    mode: "UPI",
+    refId: "UPI-615484426414",
+    merchant: "UPI/Priyanka Priya/638146575711",
+    icon: "Send",
+    color: "bg-purple-100 text-purple-700"
+  },
+  {
+    id: "TXN-615489458884",
+    title: "VIRENDER KUMAR",
+    narration: "UPI/VIRENDER KUMAR/844967207031/Payment from Ph",
+    category: "Transfer",
+    type: "debit",
+    amount: 1000.00,
+    date: "04 Oct 2026",
+    timestamp: "2026-10-04T13:20:00.000Z",
+    status: "Successful",
+    mode: "UPI",
+    refId: "UPI-615489458884",
+    merchant: "UPI/VIRENDER KUMAR/844967207031",
+    icon: "Send",
+    color: "bg-blue-100 text-blue-700"
+  },
+  {
+    id: "TXN-615491121014",
+    title: "MANOJ KUMAR SO",
+    narration: "UPI/MANOJ KUMAR SO/402097881772/Payment from Ph",
+    category: "Transfer",
+    type: "credit",
+    amount: 350.00,
+    date: "04 Oct 2026",
+    timestamp: "2026-10-04T16:00:00.000Z",
+    status: "Successful",
+    mode: "UPI",
+    refId: "UPI-615491121014",
+    merchant: "UPI/MANOJ KUMAR SO/402097881772",
+    icon: "ArrowDownLeft",
+    color: "bg-emerald-100 text-emerald-700"
   }
 ];
 
 export const mockBeneficiaries = [
-  { id: "b1", name: "Suman Devi", upiId: "sumandevi@upi", avatar: "SD", bank: "State Bank of India", favorite: true },
-  { id: "b2", name: "RAHUL YADAV", upiId: "rahulyadav@paytm", avatar: "RY", bank: "Paytm Payments Bank", favorite: true },
-  { id: "b3", name: "Atishay Jain", upiId: "atishay.jain@okaxis", avatar: "AJ", bank: "Axis Bank", favorite: true },
-  { id: "b4", name: "Roop Singh", accountNo: "30291482910", ifsc: "SBIN0000023", avatar: "RS", bank: "State Bank of India", favorite: true },
-  { id: "b5", name: "MAHENDRA KURMI", upiId: "811406185034@ybl", avatar: "MK", bank: "PhonePe / Yes Bank", favorite: false }
+  {
+    id: "b1",
+    name: "Suman Devi",
+    upiId: "sumandevi@upi",
+    avatar: "SD",
+    bank: "State Bank of India",
+    favorite: true
+  },
+  {
+    id: "b2",
+    name: "RAHUL YADAV",
+    upiId: "rahulyadav@paytm",
+    avatar: "RY",
+    bank: "Paytm Payments Bank",
+    favorite: true
+  },
+  {
+    id: "b3",
+    name: "Atishay Jain",
+    upiId: "atishay.jain@okaxis",
+    avatar: "AJ",
+    bank: "Axis Bank",
+    favorite: true
+  },
+  {
+    id: "b4",
+    name: "Roop Singh",
+    accountNo: "30291482910",
+    ifsc: "SBIN0000023",
+    avatar: "RS",
+    bank: "State Bank of India",
+    favorite: true
+  },
+  {
+    id: "b5",
+    name: "MAHENDRA KURMI",
+    upiId: "811406185034@ybl",
+    avatar: "MK",
+    bank: "PhonePe / Yes Bank",
+    favorite: false
+  },
+  {
+    id: "b6",
+    name: "MAHENDER SIN",
+    upiId: "944706062063@upi",
+    avatar: "MS",
+    bank: "UPI",
+    favorite: false
+  },
+  {
+    id: "b7",
+    name: "MAHENDER SINGH",
+    upiId: "615452178834@upi",
+    avatar: "MS",
+    bank: "UPI",
+    favorite: false
+  },
+  {
+    id: "b8",
+    name: "AMAN",
+    upiId: "607284730632@paytm",
+    avatar: "AM",
+    bank: "Paytm",
+    favorite: false
+  },
+  {
+    id: "b9",
+    name: "NETFLIX COM",
+    upiId: "103411475095@upi",
+    avatar: "NC",
+    bank: "Netflix",
+    favorite: false
+  },
+  {
+    id: "b10",
+    name: "VPAY",
+    accountNo: "615428065304",
+    ifsc: "KKBK",
+    avatar: "VP",
+    bank: "Kotak Mahindra Bank",
+    favorite: false
+  },
+  {
+    id: "b11",
+    name: "Priyanka Priya",
+    upiId: "638146575711@upi",
+    avatar: "PP",
+    bank: "UPI",
+    favorite: false
+  },
+  {
+    id: "b12",
+    name: "VIRENDER KUMAR",
+    upiId: "844967207031@upi",
+    avatar: "VK",
+    bank: "UPI",
+    favorite: false
+  },
+  {
+    id: "b13",
+    name: "MANOJ KUMAR SO",
+    upiId: "402097881772@upi",
+    avatar: "MK",
+    bank: "UPI",
+    favorite: false
+  }
 ];
-
 export const mockBillerCategories = [
   { id: "electricity", name: "Electricity", icon: "Zap", color: "bg-amber-500", billers: ["Tata Power", "Adani Electricity", "MSEDCL", "BSES Rajdhani"] },
   { id: "mobile", name: "Mobile Recharge", icon: "Smartphone", color: "bg-blue-500", billers: ["Jio Prepaid", "Airtel Prepaid", "Vi Prepaid", "BSNL"] },
