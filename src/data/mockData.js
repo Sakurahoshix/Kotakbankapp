@@ -5,7 +5,7 @@ export const initialUserData = {
   accountNo: "2345881211",
   ifsc: "KKBK0004692",
   branch: "Panchvati Colony Azadpur New Delhi 1130033",
-  upiId: "harvinder.sandhu@kotak",
+  upiId: "shobhadevi2@kotak",
   phone: "+91 98765 43210",
   email: "shobhadevi283@gmail.com",
   kycStatus: "Full KYC Verified",
