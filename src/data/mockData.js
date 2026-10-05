@@ -10,7 +10,7 @@ export const initialUserData = {
   email: "shobhadevi283@gmail.com",
   kycStatus: "Full KYC Verified",
   accountType: "Kotak 811 Super Savings",
-  balance: 78450.50,
+  balance: 17450.50,
   activMoneyBalance: 135000.00,
   isActivMoneyEnabled: true,
   rewardPoints: 3420,
