@@ -47,20 +47,20 @@ export const initialUserData = {
 export const initialTransactions = [
  export const mockTransactions = [
   {
-    id: "TXN-600360831059",
-    title: "Suman Devi",
-    narration: "UPI/Suman Devi/600323378839/UPI",
-    category: "Transfer",
-    type: "debit",
-    amount: 1500.00,
-    date: "29 Sep 2026",
-    timestamp: "2026-09-29T14:30:00.000Z",
-    status: "Successful",
-    mode: "UPI",
-    refId: "UPI-600360831059",
-    merchant: "UPI/Suman Devi/600323378839",
-    icon: "Send",
-    color: "bg-purple-100 text-purple-700"
+  id: "TXN-615446124194",
+  title: "Mr MAHENDER SIN",
+  narration: "UPI/Mr MAHENDER SIN/944706062063/Payment from Ph",
+  category: "Transfer",
+  type: "credit",
+  amount: 4100.00,
+  date: "29 Sep 2026",
+  timestamp: "2026-09-29T00:00:00.000Z",
+  status: "Successful",
+  mode: "UPI",
+  refId: "UPI-615446124194",
+  merchant: "Mr MAHENDER SIN/944706062063",
+  icon: "ArrowDownLeft",
+  color: "bg-green-100 text-green-700"
   },
   {
     id: "TXN-600359276833",
